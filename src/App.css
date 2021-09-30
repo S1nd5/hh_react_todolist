@@ -2,9 +2,23 @@
   text-align: center;
 }
 
+div.main {
+  display: flex;
+  flex-direction: column;
+}
+
+div.flexbox {
+  flex: 1 0 100%
+}
+
+.ag-row .ag-cell {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}
+
 #add {
   display: inline-block;
-  
 }
 
 table {
